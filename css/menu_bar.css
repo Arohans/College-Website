@@ -1,0 +1,24 @@
+ul.menu_bar {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: black;
+		}
+
+li.mb {
+		float: right;
+		border-left:1px solid grey;
+	}
+
+li.mb a {
+		 display: block;
+		 color: white;
+		 text-align: center;
+		 padding: 15px 13px;
+		 text-decoration: none;
+		}
+
+li.mb a:hover {
+			background-color: grey;
+		}
